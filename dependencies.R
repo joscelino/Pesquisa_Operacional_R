@@ -17,5 +17,5 @@ rm(new.packages)
 library(checkpoint)
 checkpoint(snapshotDate = "2021-01-21")
 
-library(benford.analysis)
-library(BenfordTests)
+library(GA)
+library(lpSolve)
